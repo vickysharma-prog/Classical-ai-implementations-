@@ -94,7 +94,7 @@ Name: Tom Hanks
 1: Emma Watson and Brendan Gleeson starred in Harry Potter and the Goblet of Fire
 2: Brendan Gleeson and Tom Hanks starred in The Green Mile
 ```
-##2. Minimax Tic-Tac-Toe
+### 2. Minimax Tic-Tac-Toe
 Unbeatable AI — Optimal game-playing agent using Minimax algorithm.
 
 📍 Location: adversarial-search/minimax-tictactoe/
