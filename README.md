@@ -17,7 +17,8 @@
 
 ## 🎯 About
 
-Production-quality implementations of fundamental AI algorithms with clean, well-documented code covering **Search**, **Game Theory**, **Knowledge Representation**, and **Probabilistic Reasoning**.
+Production-quality implementations of fundamental AI algorithms with clean, well-documented code covering
+**Search**, **Game Theory**, **Knowledge Representation**, and **Probabilistic Reasoning**.
 
 | Feature | Description |
 |:--------|:------------|
@@ -167,11 +168,12 @@ Crossword	CSP + AC-3	Constraint-based	📅 Planned
 Parser	Context-Free Grammar	NLP	📅 Planned
 
 **🛠️ Tech Stack**
-Technology	Purpose
+
+**Technology**	**Purpose**
 Python 3.10+	Core language
 Pygame	Game visualization
 Git	Version control
-**Concepts**: Graph Theory, Game Trees, State Space Search, Adversarial Search, Heuristics
+Concepts: Graph Theory, Game Trees, State Space Search, Adversarial Search, Heuristics
 
 **⚡ Quick Start**
 ```Bash
