@@ -1,108 +1,70 @@
-<div align="center">
+# 🧠 Classical AI Implementations
 
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge\&logo=python\&logoColor=white)](https://python.org)
 
+[![Pygame](https://img.shields.io/badge/Pygame-2.0+-00D000?style=for-the-badge\&logo=python\&logoColor=white)](https://pygame.org)
 
-\# 🧠 Classical AI Implementations
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
+**Production-ready implementations of classical AI algorithms**
 
-\[!\[Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge\&logo=python\&logoColor=white)](https://python.org)
+*Search • Game Theory • Knowledge Representation • Probabilistic Reasoning*
 
-\[!\[Pygame](https://img.shields.io/badge/Pygame-2.0+-00D000?style=for-the-badge\&logo=python\&logoColor=white)](https://pygame.org)
+[Explore Projects](#-projects) • [View Demo](#-demos) • [Get Started](#-quick-start)
 
-\[!\[License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+## 📋 Table of Contents
 
-\[!\[PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
+- [About](#-about)
 
+- [Projects](#-projects)
 
+  - [BFS Actor Connections](#1-bfs-actor-connections)
 
-\*\*Production-ready implementations of classical AI algorithms\*\*
+  - [Minimax Tic-Tac-Toe](#2-minimax-tic-tac-toe)
 
+- [Demos](#-demos)
 
+- [Architecture](#-architecture)
 
-\*Search • Game Theory • Knowledge Representation • Probabilistic Reasoning\*
+- [Algorithms Deep Dive](#-algorithms-deep-dive)
 
+- [Upcoming Projects](#-upcoming-projects)
 
+- [Tech Stack](#-tech-stack)
 
-\[Explore Projects](#-projects) • \[View Demo](#-demos) • \[Get Started](#-quick-start)
+- [Quick Start](#-quick-start)
 
+- [Contributing](#-contributing)
 
+- [References](#-references)
 
----
+- [License](#-license)
 
+- [Author](#-author)
 
+## 🎯 About
 
-</div>
+This repository contains **production-quality implementations** of fundamental AI algorithms. Each project demonstrates core concepts in artificial intelligence with clean, well-documented code.
 
-
-
-\## 📋 Table of Contents
-
-
-
-\- \[About](#-about)
-
-\- \[Projects](#-projects)
-
-&nbsp; - \[BFS Actor Connections](#1-bfs-actor-connections)
-
-&nbsp; - \[Minimax Tic-Tac-Toe](#2-minimax-tic-tac-toe)
-
-\- \[Demos](#-demos)
-
-\- \[Architecture](#-architecture)
-
-\- \[Algorithms Deep Dive](#-algorithms-deep-dive)
-
-\- \[Upcoming Projects](#-upcoming-projects)
-
-\- \[Tech Stack](#-tech-stack)
-
-\- \[Quick Start](#-quick-start)
-
-\- \[Contributing](#-contributing)
-
-\- \[References](#-references)
-
-\- \[License](#-license)
-
-\- \[Author](#-author)
-
-
-
----
-
-
-
-\## 🎯 About
-
-
-
-This repository contains \*\*production-quality implementations\*\* of fundamental AI algorithms. Each project demonstrates core concepts in artificial intelligence with clean, well-documented code.
-
-
-
-\### Why This Repository?
-
-
+### Why This Repository?
 
 | Feature | Description |
 
 |---------|-------------|
 
-| 📚 \*\*Educational\*\* | Detailed explanations with algorithm visualizations |
+| 📚 **Educational** | Detailed explanations with algorithm visualizations |
 
-| 🏗️ \*\*Well-Structured\*\* | Clean architecture following best practices |
+| 🏗️ **Well-Structured** | Clean architecture following best practices |
 
-| 📖 \*\*Documented\*\* | Comprehensive documentation for each algorithm |
+| 📖 **Documented** | Comprehensive documentation for each algorithm |
 
-| 🧪 \*\*Tested\*\* | Verified implementations with sample datasets |
+| 🧪 **Tested** | Verified implementations with sample datasets |
 
-| 🚀 \*\*Extensible\*\* | Easy to extend and modify for your needs |
+| 🚀 **Extensible** | Easy to extend and modify for your needs |
 
-
-
-\### Concepts Covered
+### Concepts Covered
 
 ┌─────────────────────────────────────────────────────────────────┐
 
@@ -110,7 +72,7 @@ This repository contains \*\*production-quality implementations\*\* of fundament
 
 ├─────────────────┬─────────────────┬─────────────────────────────┤
 
-│ SEARCH │ GAME THEORY │ KNOWLEDGE \& PROBABILITY │
+│ SEARCH │ GAME THEORY │ KNOWLEDGE & PROBABILITY │
 
 ├─────────────────┼─────────────────┼─────────────────────────────┤
 
@@ -118,135 +80,79 @@ This repository contains \*\*production-quality implementations\*\* of fundament
 
 │ • DFS │ • Alpha-Beta │ • Bayesian Networks │
 
-│ • A\* Search │ • Expectimax │ • Markov Chains │
+│ • A* Search │ • Expectimax │ • Markov Chains │
 
 │ • Greedy Search │ • Game Trees │ • Constraint Satisfaction │
 
 └─────────────────┴─────────────────┴─────────────────────────────┘
 
-
-
 text
 
+## 🚀 Projects
 
+### 1. BFS Actor Connections
 
+**Six Degrees of Separation** — Find the shortest path between any two actors through shared movies.
 
-
----
-
-
-
-\## 🚀 Projects
-
-
-
-\### 1. BFS Actor Connections
-
-
-
-> \*\*Six Degrees of Separation\*\* — Find the shortest path between any two actors through shared movies.
-
-
-
-<table>
-
-<tr>
-
-<td width="50%">
-
-
-
-\#### 📝 Problem Statement
-
-
+#### 📝 Problem Statement
 
 Given two actors, find the shortest sequence of movies that connects them. For example:
 
 Tom Hanks → Kevin Bacon
 
-
-
 Path Found:
 
-
-
-Tom Hanks ─\[Apollo 13]─→ Kevin Bacon
+Tom Hanks ─[Apollo 13]─→ Kevin Bacon
 
 Degrees of Separation: 1
 
-
-
 text
 
-
-
-
-
-</td>
-
-<td width="50%">
-
-
-
-\#### 📊 Complexity Analysis
-
-
+#### 📊 Complexity Analysis
 
 | Metric | Value |
 
 |--------|-------|
 
-| \*\*Algorithm\*\* | Breadth-First Search |
+| **Algorithm** | Breadth-First Search |
 
-| \*\*Time\*\* | O(V + E) |
+| **Time** | O(V + E) |
 
-| \*\*Space\*\* | O(V) |
+| **Space** | O(V) |
 
-| \*\*Optimality\*\* | ✅ Guaranteed shortest path |
+| **Optimality** | ✅ Guaranteed shortest path |
 
-| \*\*Completeness\*\* | ✅ Finds solution if exists |
+| **Completeness** | ✅ Finds solution if exists |
 
-
-
-</td>
-
-</tr>
-
-</table>
-
-
-
-\#### 🔍 How BFS Works
+#### 🔍 How BFS Works
 
 text
 
+  ┌─────────────┐
 
+  │ START │
 
-&nbsp;               ┌─────────────┐
+  │ (Actor A) │
 
-&nbsp;               │   START     │
+  └──────┬──────┘
 
-&nbsp;               │  (Actor A)  │
+  │
 
-&nbsp;               └──────┬──────┘
+  ┌────────────┼────────────┐
 
-&nbsp;                      │
+  ▼ ▼ ▼
 
-&nbsp;         ┌────────────┼────────────┐
+  ┌────────┐ ┌────────┐ ┌────────┐
 
-&nbsp;         ▼            ▼            ▼
+  │ Movie1 │ │ Movie2 │ │ Movie3 │
 
-&nbsp;    ┌────────┐   ┌────────┐   ┌────────┐
+  └───┬────┘ └───┬────┘ └───┬────┘
 
-&nbsp;    │ Movie1 │   │ Movie2 │   │ Movie3 │
+  │ │ │
 
-&nbsp;    └───┬────┘   └───┬────┘   └───┬────┘
+  ┌──────┴──────┐ │ ┌──────┴──────┐
 
-&nbsp;        │            │            │
-
-&nbsp; ┌──────┴──────┐     │     ┌──────┴──────┐
-
-&nbsp; ▼             ▼     ▼     ▼             ▼
+  ▼ ▼ ▼ ▼ ▼
 
 ┌───────┐ ┌───────┐ ... ┌───────┐ ┌───────┐
 
@@ -254,23 +160,11 @@ text
 
 └───────┘ └───────┘ └───────┘ └───────┘
 
-
-
 BFS explores level by level → guarantees shortest path
-
-
 
 text
 
-
-
-
-
-\#### 💻 Implementation
-
-
-
-```python
+#### 💻 Implementation
 
 def shortest\_path(source, target):
 
@@ -1211,4 +1105,3 @@ Made with ❤️ and Python
 
 
 </div> ```
-
