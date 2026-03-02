@@ -104,6 +104,17 @@ Algorithm	Minimax
 Time Complexity	O(b^d) ≈ O(9!)
 Space Complexity	O(d) = O(9)
 Optimality	✅ Perfect play (never loses)
+
+#### 🎮 Demo
+
+<div align="center">
+
+![Tic-Tac-Toe Demo](assets/tictactoe-demo.gif)
+
+*AI never loses — try to beat it!*
+
+</div>
+
 **How Minimax Works**
 ```text
 
